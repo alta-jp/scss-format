@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact-wpcf7 btn
+// ---------------------------------------------
+
+.form-buttons{
+    text-align: center;
+    margin-top: 30px;
+    font-size: percentage(24/14);
+
+    .wpcf7-form-control{
+        width: 260px;
+        height: 60px;
+        border-style: none;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+        &:hover{
+            opacity: .8;
+        }
+    }
+
+    .wpcf7c-btn-confirm{
+        background: url('../img/contact/btn_confirm.png') no-repeat 0 0;
+        color: #fff;
+        text-indent: -200%;
+    }
+
+    .wpcf7-submit{
+        background: url('../img/contact/btn_submit.png') no-repeat 0 0;
+        color: #fff;
+        text-indent: -200%;
+    }
+
+    .wpcf7c-btn-back{
+        background: url('../img/contact/btn_back.png') no-repeat 0 0;
+        color: #fff;
+        margin-right: 20px;
+        text-indent: -200%;
+    }
+}

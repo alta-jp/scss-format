@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact input
+// ---------------------------------------------
+
+.table-form{
+    
+    input[type=text], input[type=email], input[type=tel], textarea{
+        width: 400px;
+        padding: 2px;
+        font-size: 105%;
+        font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        border-radius: 3px;
+        border:solid 2px #ccc;
+        background: #fff;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        font-weight: normal;
+        color: #333;
+
+        &:focus{
+            outline: none;
+            border:solid 2px #b6b8d4;
+        }
+    }
+
+    input[type=date]{
+        width: 230px;
+        padding: 2px;
+        font-size: 105%;
+        font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        border-radius: 3px;
+        border:solid 2px #ccc;
+        background: #fff;
+        -webkit-box-shadow:none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        font-weight: normal;
+        color: #333;
+
+        &:focus{
+            outline: none;
+            border:solid 2px #b6b8d4;
+        }
+    }
+
+    input[type="checkbox"]:checked,input[type="radio"]:checked{
+        +span{
+            font-weight: bold;
+        }
+    }
+
+    textarea{
+        width: 100%;
+        height: 240px;
+    }
+
+    .input_caption{
+        color: #cccccc;
+    }
+}

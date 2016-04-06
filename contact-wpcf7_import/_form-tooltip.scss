@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact-wpcf7 tooltip
+// ---------------------------------------------
+
+.wpcf7-not-valid-tip{
+    display: block;
+    background: #b52121;
+    padding: 5px 10px;
+    position: relative;
+    margin-top: 12px;
+    clear: both;
+    color: #fff !important;
+
+    &:before{
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: -20px;
+        border: 10px solid #b52121;
+        border-color: transparent;
+        border-bottom-color: #b52121;
+    }
+}

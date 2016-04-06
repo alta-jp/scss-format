@@ -1,0 +1,24 @@
+@charset "UTF-8"; 
+
+// ---------------------------------------------
+//  border
+// ---------------------------------------------
+
+hr{
+    height: 1px;
+    border: none;
+    margin: 15px 0px;
+}
+
+.line-dotted{
+    border-bottom: dotted 1px #9a9a9a;
+}
+
+.line-dashed{
+    border-bottom: dashed 1px #9a9a9a;
+}
+
+.line-solid{
+    border-bottom: solid 1px #bfbfbf;
+}
+

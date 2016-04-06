@@ -1,0 +1,20 @@
+@charset "UTF-8"; 
+
+// ---------------------------------------------
+//  contact-wpcf7_importフォルダを読み込む
+// ---------------------------------------------
+
+// table装飾
+@import "contact-wpcf7_import/table-form";
+
+// input装飾
+@import "contact-wpcf7_import/form-input";
+
+// 送信ボタン
+@import "contact-wpcf7_import/form-btn";
+
+// 「送信されました」などの応答メッセージ
+@import "contact-wpcf7_import/form-response";
+
+// エラーメッセージ用ツールチップ
+@import "contact-wpcf7_import/form-tooltip";

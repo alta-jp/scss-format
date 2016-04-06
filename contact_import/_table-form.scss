@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact form
+// ---------------------------------------------
+
+.table-form{
+    width: 100%;
+    background: #fff;
+    border-collapse: collapse;
+    margin-top: 30px;
+
+    td{
+        vertical-align: top;
+        border-bottom: solid 2px #ffa902;
+        padding: 20px 15px;
+    }
+
+    th{
+        text-align: left;
+        background: #ffa902;
+        vertical-align: top;
+        color: #fff;
+        width: 135px;
+        position: relative;
+        background-clip: padding-box !important;
+        padding: 20px 15px;
+        padding-right: 65px;
+        border: solid 2px #fff;
+        font-weight: bold;
+
+        &:after{
+            position: absolute;
+            right: 20px;
+            top: 22px;
+            font-size: 80%;
+            padding:  4px 5px;
+            line-height: 1;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            font-weight:  normal;
+        }
+
+        &.required{
+            &:after{
+                content: "必須";
+                color: #fff;
+                background: #c90000;
+            }
+        }
+
+        &.option{
+            &:after{
+                content: "任意";
+                color: #fff;
+                background: #999999;
+            }
+        }
+    }
+}

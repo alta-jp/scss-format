@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact-wpcf7 form
+// ---------------------------------------------
+
+.table_form{
+    td{
+        vertical-align: top;
+    }
+
+    th{
+        vertical-align: top;
+        width: 200px;
+        position: relative;
+        background-clip: padding-box !important;
+        padding-right: 65px;
+
+
+        &.required{
+            &:after{
+                content: "必須";
+                position: absolute;
+                right: 20px;
+                top: 14px;
+                color: #fff;
+                background: #e60012;
+                font-size: 70%;
+                font-weight: normal;
+                margin-left: 5px;
+                line-height: 1;
+                padding: 4px 5px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+            }
+        }
+
+        &.option{
+            &:after{
+                content: "任意";
+                position: absolute;
+                right: 20px;
+                top: 14px;
+                color: #fff;
+                background: #999999;
+                font-size: 70%;
+                font-weight: normal;
+                line-height: 1;
+                padding: 4px 5px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+            }
+        }
+    }
+}

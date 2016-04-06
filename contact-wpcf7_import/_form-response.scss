@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact-wpcf7 response
+// ---------------------------------------------
+
+.form-complete{
+    display: none;
+}
+
+.wpcf7-form.sent{
+
+    .form-wrap{
+        display: none;
+    }
+
+    .form-complete{
+        display: block;
+        border: solid 1px #75c7f3;
+        background: #fff;
+        padding: 25px 30px;
+        margin-bottom: 20px;
+
+        h3{
+
+        }
+
+        a.totoppage{
+            color: #0185cd;
+            display: inline-block;
+            margin-top: 60px;
+
+            &:before{
+                content: url('../img/common/arrow_blue.png');
+            }
+        }
+    }
+}

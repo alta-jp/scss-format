@@ -1,0 +1,28 @@
+@charset "UTF-8"; 
+
+// ---------------------------------------------
+//  link
+// ---------------------------------------------
+
+a:link{
+}
+
+a:visited{
+}
+
+a:hover{
+}
+
+a img{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a:hover img{  
+    filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}

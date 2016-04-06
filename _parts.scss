@@ -1,0 +1,19 @@
+@charset "UTF-8"; 
+
+// ---------------------------------------------
+//  parts_importフォルダを読み込む
+// ---------------------------------------------
+
+// aタグのcolor,hover設定
+@import "parts_import/link";
+
+// 基本文字装飾 strongとか
+@import "parts_import/character-decoration";
+
+// hr向けのラインデザインセット
+@import "parts_import/hr";
+
+// パンくず .breadcrumb
+@import "parts_import/breadcrumb";
+
+

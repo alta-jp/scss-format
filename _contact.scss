@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// ---------------------------------------------
+//  contact_importフォルダを読み込む
+// ---------------------------------------------
+
+#loading{
+    display: none;
+}
+
+.thanks{
+    padding:20px;
+    font-size:110%;
+}
+
+// table装飾
+@import "contact_import/table-form";
+
+// input装飾
+@import "contact_import/form-input";
+
+// 送信ボタン
+@import "contact_import/form-btn";
+
+// エラーメッセージ用ツールチップ
+@import "contact_import/form-tooltip";
